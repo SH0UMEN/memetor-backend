@@ -1,7 +1,7 @@
 from PIL import Image, PSDraw
 
 im = Image.open("1.png")
-title = "Hi there!"
+title = "Hi "
 box = (1 * 72, 2 * 72, 7 * 72, 10 * 72)
 
 ps = PSDraw.PSDraw()  # default is sys.stdout
